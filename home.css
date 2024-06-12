@@ -29,7 +29,8 @@
   header nav a {
     color: #FE4045;
     text-decoration: none;
-    text-align: left;
+    text-align: right;
+
  
   }
   
@@ -40,8 +41,8 @@
   }
   
   header .logo img {
-    width: 170px;
-    height: 86px;
+    width: 180px;
+    height: 90px;
     margin-left: 20px;
   }
   
@@ -62,6 +63,49 @@
   section h2 {
     margin-top: 0;
   }
+  
+  
+  .container{
+  display: flex;
+  justify-content: space-between;
+ 
+  }
+  
+  .item1{
+    width: 580px;
+    height: 440px;
+  }
+
+  .item2{
+color: #002234;
+margin-top: 70px;
+margin-left: 30PX;
+
+  }
+
+
+
+
+
+
+  .button{
+   margin-left: 900px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #002234;
+    color: #ddd;
+  }
+
+.item1 img{
+width: 580px;
+height: 470px;
+
+  }
+  
+  
+  
+  
+  
   
   .hero {
     background-image: url('hero-image.jpg');
@@ -247,4 +291,27 @@ section {
       width: 90px;
 }
 
+
+
+
+.mission{
+
+
+width: 1000px;
+height: 500px;
+left: 0px;
+background: #002234;
+}
+
+.mission-text{
+  color: #002234;
+  background: #ffffff;
+  padding-left: 100px;
+}
+
+.mission-img{
+  width: 900px;
+  height: 500px;
+  text-align: right;
+}
 
